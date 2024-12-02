@@ -9,7 +9,7 @@ class TaskCard extends StatelessWidget {
   const TaskCard({
     super.key,
     this.color = Colors.grey,
-    this.cardHeight = 350,
+    this.cardHeight = 330,
     this.cardWidth = 220,
     this.cardRadius = 10,
   });
