@@ -1,3 +1,4 @@
+import 'package:flexi/category_card.dart';
 import 'package:flutter/material.dart';
 
 class Dashboard extends StatelessWidget {
@@ -5,6 +6,17 @@ class Dashboard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Column(
+      children: [
+        Row(
+          children: [
+            CategoryCard(),
+            CategoryCard(),
+            CategoryCard(),
+            CategoryCard(),
+          ],
+        )
+      ],
+    );
   }
 }

@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
 class CategoryCard extends StatelessWidget {
-  Color color;
-  int height;
-  int width;
+  final Color color;
+  final int height;
+  final int width;
 
-  CategoryCard({
+  const CategoryCard({
+    super.key,
     this.color = Colors.grey,
     this.height = 40,
     this.width = 150,
-    super.key,
   });
 
   @override
