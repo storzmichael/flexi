@@ -1,3 +1,4 @@
+import 'package:flexi/dashboard.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
@@ -7,10 +8,11 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('AppBar'),
+        title: const Text('Dashboard'),
       ),
       body: const Padding(
         padding: EdgeInsets.all(16),
+        child: Dashboard(),
       ),
       bottomNavigationBar: BottomNavigationBar(
         items: const [

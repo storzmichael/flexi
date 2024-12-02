@@ -6,11 +6,18 @@ class Dashboard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return const Column(
       children: [
+        // Platzhalter
+        SizedBox(
+          height: 200,
+        ),
         Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            CategoryCard(),
+            CategoryCard(
+              color: Colors.red,
+            ),
             CategoryCard(),
             CategoryCard(),
             CategoryCard(),
