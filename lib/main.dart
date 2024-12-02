@@ -1,5 +1,5 @@
-import 'package:flexi/navigation_provider.dart';
-import 'package:flexi/widgets/home.dart';
+import 'package:flexi/src/provider/navigation_provider.dart';
+import 'package:flexi/src/core/home.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

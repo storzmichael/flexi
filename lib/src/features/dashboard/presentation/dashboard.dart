@@ -1,8 +1,8 @@
-import 'package:flexi/config.dart';
-import 'package:flexi/widgets/category_card.dart';
-import 'package:flexi/widgets/challenge_card.dart';
-import 'package:flexi/widgets/progress_card.dart';
-import 'package:flexi/widgets/task_card.dart';
+import 'package:flexi/src/config/config.dart';
+import 'package:flexi/src/features/dashboard/presentation/widgets/category_card.dart';
+import 'package:flexi/src/features/dashboard/presentation/widgets/challenge_card.dart';
+import 'package:flexi/src/features/dashboard/presentation/widgets/progress_card.dart';
+import 'package:flexi/src/features/dashboard/presentation/widgets/task_card.dart';
 import 'package:flutter/material.dart';
 
 class Dashboard extends StatelessWidget {
