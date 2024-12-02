@@ -1,8 +1,17 @@
-import 'package:flexi/home.dart';
+import 'package:flexi/navigation_provider.dart';
+import 'package:flexi/widgets/home.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (context) => NavigationProvider()),
+      ],
+      child: const MainApp(),
+    ),
+  );
 }
 
 class MainApp extends StatelessWidget {
@@ -13,7 +22,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        "/": (context) => const Home(),
+        "/": (context) => Home(),
       },
     );
   }
