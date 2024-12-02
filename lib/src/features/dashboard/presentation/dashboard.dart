@@ -18,7 +18,7 @@ class Dashboard extends StatelessWidget {
         children: [
           // Platzhalter
           const SizedBox(
-            height: 200,
+            height: 250,
           ),
           const Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,

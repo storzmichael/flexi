@@ -1,14 +1,19 @@
 import 'package:flexi/src/config/config.dart';
+import 'package:flexi/src/features/screens/settings.dart';
 import 'package:flexi/src/provider/navigation_provider.dart';
 import 'package:flexi/src/features/dashboard/presentation/dashboard.dart';
 import 'package:flexi/src/features/help/presentation/help.dart';
-import 'package:flexi/src/features/settings/presentation/settings.dart';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class Home extends StatelessWidget {
   Home({super.key});
-  final List<Widget> pages = [Dashboard(), Help(), Settings()];
+  final List<Widget> pages = [
+    Dashboard(),
+    Help(),
+    Settings(),
+  ];
 
   @override
   Widget build(BuildContext context) {
