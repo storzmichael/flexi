@@ -10,6 +10,8 @@
 .svn/
 migrate_working_dir/
 
+lib/src/features/quizzes/application/api_key.dart
+
 # IntelliJ related
 *.iml
 *.ipr
