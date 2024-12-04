@@ -1,5 +1,8 @@
 import 'package:flexi/src/provider/navigation_provider.dart';
 import 'package:flexi/src/core/home.dart';
+
+import 'package:flexi/src/provider/progress_provider.dart';
+import 'package:flexi/src/provider/quiz_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -8,6 +11,9 @@ void main() {
     MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (context) => NavigationProvider()),
+        ChangeNotifierProvider(create: (context) => ProgressProvider()),
+        ChangeNotifierProvider(
+      create: (context) => QuizProvider()),
       ],
       child: const MainApp(),
     ),

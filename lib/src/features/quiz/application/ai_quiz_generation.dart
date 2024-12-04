@@ -1,6 +1,6 @@
 import "dart:convert";
-import "package:flexi/src/features/quizzes/application/api_key.dart";
-import "package:flexi/src/features/quizzes/domain/quiz_model.dart";
+import "package:flexi/src/features/quiz/application/api_key.dart";
+import "package:flexi/src/features/quiz/domain/quiz_model.dart";
 import "package:http/http.dart" as http;
 
 Future<QuizModel?> fetchQuizFromAI(

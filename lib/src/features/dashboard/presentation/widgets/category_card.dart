@@ -5,6 +5,7 @@ class CategoryCard extends StatelessWidget {
   final double cardHeight;
   final double cardWidth;
   final double cardRadius;
+  final String title;
 
   const CategoryCard({
     super.key,
@@ -12,6 +13,7 @@ class CategoryCard extends StatelessWidget {
     this.cardHeight = 80,
     this.cardWidth = 220,
     this.cardRadius = 10,
+    this.title = 'Category',
   });
 
   @override
@@ -26,8 +28,8 @@ class CategoryCard extends StatelessWidget {
         ),
         child: Center(
           child: Text(
-            'Category',
-            style: TextStyle(color: Colors.white, fontSize: 18),
+            title,
+            style: const TextStyle(color: Colors.white, fontSize: 26, fontWeight: FontWeight.bold),
           ),
         ),
       ),
