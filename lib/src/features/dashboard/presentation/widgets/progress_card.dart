@@ -39,7 +39,7 @@ class ProgressCard extends StatelessWidget {
             Stack(
               alignment: Alignment.center,
               children: [
-                Container(
+                 SizedBox(
                   height: progressSize, // Setze die Größe des Kreises
                   width: progressSize, // Setze die Größe des Kreises
                   child: CircularProgressIndicator(

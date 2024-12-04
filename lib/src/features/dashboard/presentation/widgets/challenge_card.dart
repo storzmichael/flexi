@@ -24,7 +24,7 @@ class ChallengeCard extends StatelessWidget {
           color: color,
           borderRadius: BorderRadius.circular(cardRadius),
         ),
-        child: Center(
+        child: const Center(
           child: Text(
             'Challenge',
             style: TextStyle(color: Colors.white, fontSize: 18),

@@ -24,7 +24,7 @@ class TaskCard extends StatelessWidget {
           color: color,
           borderRadius: BorderRadius.circular(cardRadius),
         ),
-        child: Center(
+        child: const Center(
           child: Text(
             'Tasks',
             style: TextStyle(color: Colors.white, fontSize: 18),
